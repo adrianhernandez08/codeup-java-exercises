@@ -23,18 +23,18 @@ public class HelloWorld {
     //1//
         int myFavoriteNumber = 17;
     //2//
-//        String myString = "23";
     //3//
-//        char myString = 23;
         //4//
-        String myString = "23";
-        System.out.println(myString);
+        System.out.println(myFavoriteNumber);
     //5//
+        String myString = "Hello World";
+System.out.println("myString = " + myString);
+
 //    long myNumber =
 //            System.out.println(myNumber);
     //6//
-//        long myNumber = 3.14;
-//                System.out.println(myNumber);
+//        float myNumber = 3.14;
+//                System.out.println("myNumber =" + myNumber);
     //7//
 //        long myNumber = 123L;
 //                System.out.println(myNumber);
@@ -65,21 +65,35 @@ public class HelloWorld {
     //13//
 //        int x = 4;
 //        x = x + 5;
-//        System.out.println(x);
+//            x+= 5
+//        System.out.println("x" = " + x);
 
 //        int x = 3;
 //        int y = 4;
 //        y = y * x;
-//        System.out.println(y);
+//            y *= x;
+//        System.out.println("y = " + y);
 
-        int x = 10;
-        int y = 2;
-        x = x / y;
-        y = y - x;
-        System.out.println(y);
+//        int x = 10;
+//        int y = 2;
+//        x = x / y;
+//        x/= y;    (shorthand)
+//        y = y - x;
+//        y -= x;   (shorthand)
+//        System.out.println("y = " + y);
 
     //14//
-        Integer.MAX_VALUE
+//byte myByte = 127;
+//        System.out.println("myByte = " + myByte);
+//
+//        myByte++;
+//
+//        System.out.println("myByte = " + myByte);
+
+
+
+
 
     }
+
 }
